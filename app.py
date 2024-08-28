@@ -26,7 +26,7 @@ def predict():
     # Preprocess the image
     image = cv2.imread(image_path)
     image = cv2.resize(image, (64, 64))
-    image = image.reshape(1, -1)  # Flatten the image to match SVM input
+    image = image.flatten().reshape(1, -1)  # Flatten the image to match SVM input
     image = image / 255.0  # Scale the image
 
     # Predict using the SVM model

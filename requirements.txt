@@ -1,5 +1,3 @@
-pip install --upgrade pip
-
 Flask==2.0.0
 numpy==1.24.0
 opencv-python==4.5.3.56

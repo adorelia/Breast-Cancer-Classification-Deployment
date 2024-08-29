@@ -5,7 +5,7 @@
       "src": "app.py",
       "use": "@vercel/python",
       "config": {
-        "pythonVersion": "3.10"  // You can specify your desired Python version here
+        "pythonVersion": "3.11"  // Try using 3.11 or 3.10
       }
     }
   ],

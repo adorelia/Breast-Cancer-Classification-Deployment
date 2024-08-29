@@ -1,18 +1,19 @@
 {
-  "version": 2,
-  "builds": [
+    "builds": [
     {
-      "src": "requirements.txt",
+      "src": "C:/Users/Hp/DATA MODELLING/UAS PROJECT/DataModelling-deploy/app.py",
       "use": "@vercel/python",
       "config": {
-        "pythonVersion": "3.11"  // Specify the Python version you want
+        "maxLambdaSize": "50mb",
+        "buildCommand": "pip install -r requirements.txt"
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.py"
-    }
-  ]
-}
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "app.py"
+      }
+    ]
+  }
+  

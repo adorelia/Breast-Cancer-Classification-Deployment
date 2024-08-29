@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "C:/Users/Hp/DATA MODELLING/UAS PROJECT/DataModelling-deploy/requirements.txt",
+      "src": "requirements.txt",
       "use": "@vercel/python",
       "config": {
-        "pythonVersion": "3.11"  // Specify a different Python version if needed
+        "pythonVersion": "3.11"  // Specify the Python version you want
       }
     }
   ],

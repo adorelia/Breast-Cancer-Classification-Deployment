@@ -3,3 +3,4 @@ joblib
 opencv-python-headless
 numpy
 pillow
+scikit-learn==1.5.1
